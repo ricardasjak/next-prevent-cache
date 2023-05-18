@@ -5,7 +5,7 @@ export default function DetailsPage() {
     return (
         <div>
             <h1>Details page, server time: {new Date().toLocaleTimeString()}</h1>
-            <Link href={'/'}>Back</Link>
+            <Link href={'/'} prefetch={false}>Back</Link>
         </div>
     )
 }
